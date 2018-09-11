@@ -1,13 +1,21 @@
 import csv
+import sys
 
-FILE_PATH = "/Users/abernasconi/Downloads/"
-IN_ACT = "att.csv"
-OUT = "matrix.arff"
+#FILE_PATH = "/Users/abernasconi/Downloads/"
+FILE_PATH = sys.argv[1]
 
-IN_MOV = "mov.csv"
-#OUT_MOV = "film_out.csv"
+#IN_ACT = "att.csv"
+IN_ACT = sys.argv[2]
 
-IN_REL = "rel.csv"
+#IN_MOV = "mov.csv"
+IN_MOV = sys.argv[3]
+
+#IN_REL = "rel.csv"
+IN_REL = sys.argv[4]
+
+#OUT = "matrix.arff"
+OUT = sys.argv[5]
+
 
 act_list = list()
 with open(FILE_PATH + IN_ACT, "r") as actor_in:
@@ -46,7 +54,3 @@ with open(FILE_PATH + IN_MOV, "r") as movie_in:
                         actor_index = act_list.index(actor_in_relation)
                         movie_row[actor_index] = 't'
             arff_out.write(','.join(movie_row) + "\n")
-
-
-
-        # print separated y commas (join)

@@ -123,6 +123,21 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.neo4j.driver#neo4j-java-driver;1.0.4 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.neo4j.driver#neo4j-java-driver;1.0.4
+[debug] 	found org.neo4j.driver#neo4j-java-driver;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#core;1.1.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2
@@ -211,17 +226,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#all;1.1.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#all;1.1.2
-[debug] 	found com.github.fommil.netlib#all;1.1.2 in sbt-chain
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1
@@ -233,17 +237,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: net.sourceforge.f2j#arpack_combined_all;0.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: net.sourceforge.f2j#arpack_combined_all;0.1
-[debug] 	found net.sourceforge.f2j#arpack_combined_all;0.1 in sbt-chain
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1
@@ -379,6 +372,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -443,14 +448,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
@@ -459,14 +456,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
@@ -587,6 +576,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
@@ -651,14 +652,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
@@ -667,14 +660,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->compile]
@@ -799,6 +784,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -863,14 +860,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
@@ -879,14 +868,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
@@ -1007,6 +988,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
@@ -1071,14 +1064,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
@@ -1087,14 +1072,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->compile]
@@ -1215,6 +1192,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->compile]
@@ -1279,14 +1268,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->compile]
@@ -1295,14 +1276,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test->compile]
@@ -1430,6 +1403,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -1494,14 +1479,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
@@ -1510,14 +1487,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
@@ -1640,6 +1609,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile-internal->compile]
@@ -1704,14 +1685,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile-internal->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile-internal->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile-internal->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile-internal->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile-internal->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile-internal->compile]
@@ -1720,14 +1693,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile-internal->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile-internal->compile]
@@ -1852,6 +1817,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -1916,14 +1893,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
@@ -1932,14 +1901,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
@@ -2060,6 +2021,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
@@ -2124,14 +2097,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
@@ -2140,14 +2105,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->compile]
@@ -2269,6 +2226,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime-internal->compile]
@@ -2333,14 +2302,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime-internal->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime-internal->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime-internal->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime-internal->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime-internal->compile]
@@ -2349,14 +2310,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime-internal->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime-internal->compile]
@@ -2482,6 +2435,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -2546,14 +2511,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
@@ -2562,14 +2519,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
@@ -2690,6 +2639,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
@@ -2754,14 +2715,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [runtime->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
@@ -2770,14 +2723,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [runtime->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [runtime->compile]
@@ -2898,6 +2843,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test->compile]
@@ -2962,14 +2919,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->compile]
@@ -2978,14 +2927,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test->compile]
@@ -3108,6 +3049,18 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#native_ref-java;1.1 [test-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->default]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#grapharm$sources;0.1->org.neo4j.driver#neo4j-java-driver;1.0.4 [test-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#core;1.1.2 [test-internal->compile]
@@ -3172,14 +3125,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [test-internal->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test-internal->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test-internal->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test-internal->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#all;1.1.2 [test-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test-internal->compile]
@@ -3188,14 +3133,6 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test-internal->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [test-internal->master]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->master(compile)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->runtime]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile(*)]
-[debug] == resolving dependencies default#grapharm$sources;0.1->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->master]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test-internal->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [test-internal->compile]
@@ -3281,328 +3218,42 @@
 [debug] == resolving dependencies default#grapharm$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->compile]
 [debug] == resolving dependencies default#grapharm$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies default#grapharm$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /Users/abernasconi/.ivy2/local/nz.ac.waikato.cms.weka/weka-stable/3.8.0/srcs/weka-stable-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/srcs/netlib-native_system-osx-x86_64-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/srcs/netlib-native_ref-win-i686-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/srcs/netlib-native_ref-osx-x86_64-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/nz.ac.waikato.cms.weka.thirdparty/bounce/0.18/srcs/bounce-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.googlecode.matrix-toolkits-java/mtj/1.0.4/srcs/mtj-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/core/1.1.2/srcs/core-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/srcs/netlib-native_ref-linux-x86_64-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/srcs/netlib-native_ref-win-x86_64-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/native_ref-java/1.1/srcs/native_ref-java-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/srcs/netlib-native_system-win-i686-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/srcs/netlib-native_system-linux-i686-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/srcs/netlib-native_system-linux-armhf-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.googlecode.netlib-java/netlib-java/1.1/srcs/netlib-java-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/srcs/netlib-native_system-linux-x86_64-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/nz.ac.waikato.cms.weka.thirdparty/java-cup-11b-runtime/2015.03.26/srcs/java-cup-11b-runtime-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1-sources.jar
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26-sources.jar
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/srcs/netlib-native_ref-linux-i686-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/all/1.1.2/srcs/all-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/srcs/netlib-native_system-win-x86_64-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/native_system-java/1.1/srcs/native_system-java-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/srcs/netlib-native_ref-linux-armhf-sources.jar
-[debug] 		tried /Users/abernasconi/.ivy2/local/nz.ac.waikato.cms.weka.thirdparty/java-cup-11b/2015.03.26/srcs/java-cup-11b-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
-[debug] no default ivy user dir defined: set to /Users/abernasconi/.ivy2
-[debug] no default ivy user dir defined: set to /Users/abernasconi/.ivy2
-[debug] no default ivy user dir defined: set to /Users/abernasconi/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 		tried /Users/abernasconi/.ivy2/local/org.neo4j.driver/neo4j-java-driver/1.0.4/srcs/neo4j-java-driver-sources.jar
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar(src)
+[debug] 	[NOT REQUIRED] com.googlecode.netlib-java#netlib-java;1.1!netlib-java.jar(src)
+[debug] 	[NOT REQUIRED] com.googlecode.matrix-toolkits-java#mtj;1.0.4!mtj.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/1.0.4/neo4j-java-driver-1.0.4-sources.jar
+[debug] 	[NOT REQUIRED] nz.ac.waikato.cms.weka.thirdparty#java-cup-11b-runtime;2015.03.26!java-cup-11b-runtime.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil#jniloader;1.1!jniloader.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] no default ivy user dir defined: set to /Users/abernasconi/.ivy2
-[debug] no default ivy user dir defined: set to /Users/abernasconi/.ivy2
-[debug] 		tried /Users/abernasconi/.ivy2/local/com.github.fommil/jniloader/1.1/srcs/jniloader-sources.jar
-[debug] no default ivy user dir defined: set to /Users/abernasconi/.ivy2
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /Users/abernasconi/.ivy2
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/abernasconi/.ivy2/cache
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/abernasconi/.ivy2/cache
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/abernasconi/.ivy2/cache
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/abernasconi/.ivy2/cache
-[debug] no default cache defined: set to /Users/abernasconi/.ivy2/cache
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/abernasconi/.ivy2/cache
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/abernasconi/.ivy2/cache
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (12ms)
-[debug] 	default cache: /Users/abernasconi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (13ms)
-[debug] 	default cache: /Users/abernasconi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 		tried https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26-sources.jar
-[debug] including url: jar:file:/Users/abernasconi/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (14ms)
-[debug] 	default cache: /Users/abernasconi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (14ms)
-[debug] 	default cache: /Users/abernasconi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (13ms)
-[debug] 	default cache: /Users/abernasconi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar
-[debug] settings loaded (15ms)
-[debug] settings loaded (12ms)
-[debug] 	default cache: /Users/abernasconi/.ivy2/cache
-[debug] 	default cache: /Users/abernasconi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
-[debug] 		tried /Users/abernasconi/.sbt/preloaded/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar
-[debug] 		tried file:////Users/abernasconi/.sbt/preloaded/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar
-[warn] 	Detected merged artifact: [FAILED     ] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar(src):  (0ms).
-[warn] ==== local: tried
-[warn] ==== public: tried
-[warn] ==== local-preloaded-ivy: tried
-[warn]   /Users/abernasconi/.sbt/preloaded/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
-[warn] ==== local-preloaded: tried
-[warn]   file:////Users/abernasconi/.sbt/preloaded/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2-sources.jar
-[debug] 		tried /Users/abernasconi/.sbt/preloaded/com.github.fommil.netlib/all/1.1.2/srcs/all-sources.jar
-[debug] 		tried file:////Users/abernasconi/.sbt/preloaded/com/github/fommil/netlib/all/1.1.2/all-1.1.2-sources.jar
-[warn] 	Detected merged artifact: [FAILED     ] com.github.fommil.netlib#all;1.1.2!all.jar(src):  (0ms).
-[warn] ==== local: tried
-[warn] ==== public: tried
-[warn] ==== local-preloaded-ivy: tried
-[warn]   /Users/abernasconi/.sbt/preloaded/com.github.fommil.netlib/all/1.1.2/srcs/all-sources.jar
-[warn] ==== local-preloaded: tried
-[warn]   file:////Users/abernasconi/.sbt/preloaded/com/github/fommil/netlib/all/1.1.2/all-1.1.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26-sources.jar
-[info] 	[SUCCESSFUL ] nz.ac.waikato.cms.weka.thirdparty#java-cup-11b-runtime;2015.03.26!java-cup-11b-runtime.jar(src) (1341ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar(src) (1482ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar(src) (1551ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.googlecode.netlib-java#netlib-java;1.1!netlib-java.jar(src) (1609ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar(src) (1843ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar(src) (1932ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar(src) (2981ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar(src) (3109ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar(src) (3490ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar(src) (3589ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar(src) (3716ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26-sources.jar
-[info] 	[SUCCESSFUL ] nz.ac.waikato.cms.weka.thirdparty#java-cup-11b;2015.03.26!java-cup-11b.jar(src) (3994ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar(src) (4086ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#core;1.1.2!core.jar(src) (4167ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18-sources.jar
-[info] 	[SUCCESSFUL ] nz.ac.waikato.cms.weka.thirdparty#bounce;0.18!bounce.jar(src) (5590ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil#jniloader;1.1!jniloader.jar(src) (9124ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar(src) (9417ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar(src) (17637ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4-sources.jar
-[info] 	[SUCCESSFUL ] com.googlecode.matrix-toolkits-java#mtj;1.0.4!mtj.jar(src) (17791ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0-sources.jar
-[info] 	[SUCCESSFUL ] nz.ac.waikato.cms.weka#weka-stable;3.8.0!weka-stable.jar(src) (19917ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar(src) (32642ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.jar(src) (32792ms)
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[debug] :: resolution report :: resolve 361ms :: artifacts dl 32806ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: com.github.fommil.netlib#all;1.1.2!all.jar(src)
-[warn] 	:: net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] nz.ac.waikato.cms.weka.thirdparty#java-cup-11b;2015.03.26!java-cup-11b.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar(src)
+[debug] 	[NOT REQUIRED] nz.ac.waikato.cms.weka#weka-stable;3.8.0!weka-stable.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar(src)
+[debug] 	[NOT REQUIRED] nz.ac.waikato.cms.weka.thirdparty#bounce;0.18!bounce.jar(src)
+[info] downloading https://repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/1.0.4/neo4j-java-driver-1.0.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/1.0.4/neo4j-java-driver-1.0.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/1.0.4/neo4j-java-driver-1.0.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/1.0.4/neo4j-java-driver-1.0.4-sources.jar
+[info] 	[SUCCESSFUL ] org.neo4j.driver#neo4j-java-driver;1.0.4!neo4j-java-driver.jar(src) (3591ms)
+[debug] :: resolution report :: resolve 236ms :: artifacts dl 3601ms
 [debug] 	report for default#grapharm$sources;0.1 compile produced in /Users/abernasconi/Documents/gitProjects/graphARM/target/scala-2.12/resolution-cache/reports/default-grapharm$sources-compile.xml
 [debug] 	report for default#grapharm$sources;0.1 runtime produced in /Users/abernasconi/Documents/gitProjects/graphARM/target/scala-2.12/resolution-cache/reports/default-grapharm$sources-runtime.xml
 [debug] 	report for default#grapharm$sources;0.1 test produced in /Users/abernasconi/Documents/gitProjects/graphARM/target/scala-2.12/resolution-cache/reports/default-grapharm$sources-test.xml
@@ -3614,4 +3265,4 @@
 [debug] 	report for default#grapharm$sources;0.1 plugin produced in /Users/abernasconi/Documents/gitProjects/graphARM/target/scala-2.12/resolution-cache/reports/default-grapharm$sources-plugin.xml
 [debug] 	report for default#grapharm$sources;0.1 pom produced in /Users/abernasconi/Documents/gitProjects/graphARM/target/scala-2.12/resolution-cache/reports/default-grapharm$sources-pom.xml
 [debug] 	report for default#grapharm$sources;0.1 scala-tool produced in /Users/abernasconi/Documents/gitProjects/graphARM/target/scala-2.12/resolution-cache/reports/default-grapharm$sources-scala-tool.xml
-[debug] 	resolve done (361ms resolve - 32806ms download)
+[debug] 	resolve done (236ms resolve - 3601ms download)
