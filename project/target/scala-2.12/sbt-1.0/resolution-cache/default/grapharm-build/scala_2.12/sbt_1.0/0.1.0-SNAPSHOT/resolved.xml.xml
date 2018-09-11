@@ -4,7 +4,7 @@
 		module="grapharm-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180809182722"
+		publication="20180809200917"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

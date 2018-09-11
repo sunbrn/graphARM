@@ -1,13 +1,21 @@
 package it.polimi.neo4jarm
 
-import java.io.{File, PrintWriter}
+import java.io.{BufferedWriter, File, FileWriter, PrintWriter}
+import java.util.Map
+import java.util.Map.Entry
 
-import org.neo4j.driver.v1.{AuthTokens, GraphDatabase}
+import org.neo4j.driver.v1._
+import org.neo4j.graphdb.{GraphDatabaseService, Node, Result, Transaction}
+import org.neo4j.graphdb.factory.GraphDatabaseFactory
 import weka.core.Instances
 import weka.core.converters.ConverterUtils.DataSource
 import weka.associations.Apriori
 
 import scala.sys.process._
+import scala.io.Source
+import resource._
+
+import scala.collection.JavaConverters._
 
 
 object Neo4JARMGenerator extends App {
@@ -18,13 +26,10 @@ object Neo4JARMGenerator extends App {
   val ExtractMatrix = "matrix"
   val RunWEKA = "runweka"
 
-
+  //to be checked after changing https://stackoverflow.com/questions/8865434/how-to-get-first-line-from-file-in-scala
   def firstLine(f: java.io.File): Option[String] = {
-    val src = io.Source.fromFile(f)
-    try {
+    managed(Source.fromFile(f)) acquireAndGet { src =>
       src.getLines.find(_ => true)
-    } finally {
-      src.close()
     }
   }
 
@@ -104,33 +109,98 @@ object Neo4JARMGenerator extends App {
   }
 
   def executeCypherQuery: Unit = {
+
+    if (args.length < 7) {
+      println(RunCypherQuery + " mode needs 7 parameters to be run:\n" +
+        "(0) run mode\n" +
+        "(1) query for movies\n" +
+        "(2) file name for movies (e.g., outMovies.csv)\n" +
+        "(3) query for actors\n" +
+        "(4) file name for actors (e.g., outActors.csv)\n" +
+        "(5) query for relations\n" +
+        "(6) file name for relations (e.g., outRel.csv)")
+      System.exit(0)
+    }
+
+    val driver: Driver = GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", "yellow"))
+
+    var list1: String = ""
+    val query1 = args(1);
+    try {
+      val session: Session = driver.session()
+      try {
+        val result: StatementResult = session.run(query1);
+        while (result.hasNext()) {
+          list1 = list1 + "\n" + result.next()
+        }
+      }
+    }
+    val file1 = new File(args(2))
+    val bw1 = new BufferedWriter(new FileWriter(file1))
+    bw1.write(list1)
+    bw1.close()
+
+    var list2:String = ""
+    val query2 = args(3);
+    try {
+      val session: Session = driver.session()
+      try {
+        val result: StatementResult = session.run(query2);
+        while (result.hasNext()) {
+          list2 = list2 + "\n" + result.next().toString
+        }
+      }
+    }
+    val file2 = new File(args(4))
+    val bw2 = new BufferedWriter(new FileWriter(file2))
+    bw2.write(list2)
+    bw2.close()
+
+    var list3:String = ""
+    val query3 = args(5);
+    try {
+      val session: Session = driver.session()
+      try {
+        val result: StatementResult = session.run(query3);
+        while (result.hasNext()) {
+          list3 = list3 + "\n" + result.next().toString
+        }
+      }
+    }
+    val file3 = new File(args(6))
+    val bw3 = new BufferedWriter(new FileWriter(file3))
+    bw3.write(list3)
+    bw3.close()
+
+
+
     //https://dzone.com/articles/getting-started-neo4j-with-scala-annbspintroductio
 
-  /*  val driver = GraphDatabase.driver("bolt:///localhost/7474", AuthTokens.basic("neo4j", "neo4j"))
-    val session = driver.session
-    val script = args(1)
-    val result = session.run(script)
-    println(result)
-    new PrintWriter("outActors.csv") {
-      write(result.toString); close
-    }*/
+    /*  val driver = GraphDatabase.driver("bolt://localhost/7474", AuthTokens.basic("neo4j", "neo4j"))
+      val session = driver.session
+      val script = args(1)
+      val result = session.run(script)
+      println(result)
+      new PrintWriter("outActors.csv") {
+        write(result.toString); close
+      }*/
 
-   // val start_shell_string = "bin/neo4j-shell -path ~/neo4j-community-3.4.1/data/databases/graph.db"
-val start_shell_string = "/Users/abernasconi/Documents/neo4j-community-3.4.1/bin/neo4j-shell -path /Users/abernasconi/Documents/neo4j-community-3.4.1/data/databases/graph.db/"
-    val result0 = start_shell_string.!
+    // val start_shell_string = "bin/neo4j-shell -path ~/neo4j-community-3.4.1/data/databases/graph.db"
+    /*   val start_shell_string = "/Users/abernasconi/Documents/neo4j-community-3.4.1/bin/neo4j-shell -path /Users/abernasconi/Documents/neo4j-community-3.4.1/data/databases/graph.db/"
+       val result0 = start_shell_string.!
 
-    val import_movies_string = "import-cypher -o outMovies.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 RETURN action_movie.tconst;"
-    val result1 = import_movies_string.!
-    //println(result)
-    val import_actors_string = "import-cypher -o outActors.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actor]-(person:actor) RETURN person.nconst UNION ALL MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actress]-(person:actress) RETURN person.nconst;"
-    val result2 = import_actors_string.!
-    //println(result2)
-    val import_rel_string = "import-cypher -o outRel.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actor]-(person:actor) RETURN startNode(relation).tconst,endNode(relation).nconst UNION ALL MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actress]-(person:actress) RETURN startNode(relation).tconst,endNode(relation).nconst;"
-    val result3 = import_rel_string.!
+       val import_movies_string = "import-cypher -o outMovies.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 RETURN action_movie.tconst;"
+       val result1 = import_movies_string.!
+       //println(result)
+       val import_actors_string = "import-cypher -o outActors.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actor]-(person:actor) RETURN person.nconst UNION ALL MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actress]-(person:actress) RETURN person.nconst;"
+       val result2 = import_actors_string.!
+       //println(result2)
+       val import_rel_string = "import-cypher -o outRel.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actor]-(person:actor) RETURN startNode(relation).tconst,endNode(relation).nconst UNION ALL MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actress]-(person:actress) RETURN startNode(relation).tconst,endNode(relation).nconst;"
+       val result3 = import_rel_string.!
 
-    val stop_shell_string = "quit"
-    val result4 = stop_shell_string.!
-
+       val stop_shell_string = "quit"
+       val result4 = stop_shell_string.!
+ */
   }
 
   def executePyQueryResultIntoMatrix: Unit = {
