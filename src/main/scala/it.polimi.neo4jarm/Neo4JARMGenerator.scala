@@ -28,7 +28,7 @@ object Neo4JARMGenerator extends App {
     }
   }
 
-  def executePyConvertIntoNeo4J(): Unit = {
+  def executePyConvertIntoNeo4J: Unit = {
 
     if (args.length < 10) {
       println(BuildGraph + " mode needs 9 parameters to be run:\n" +
@@ -93,32 +93,47 @@ object Neo4JARMGenerator extends App {
       num_cost !
   }
 
-  def executeBashBuildGraph(): Unit = {
+  def executeBashBuildGraph: Unit = {
     //ON SERVER
     //val result = "rm -rf data/databases/graph.db/; bin/neo4j-admin import --nodes import/original/title.basics_after.csv --nodes import/original/name.basics_after.csv --relationships import/original/title.principals_after.csv --ignore-missing-nodes=true" !!
 
     val remove_string = "rm -rf " + args(1)
-    val result = remove_string.!
-    //println(result)
+    val exec_remove = remove_string.!
     val build_graph_string = args(2) + "neo4j-admin import --nodes " + args(3) + " --nodes " + args(4) + " --relationships " + args(5) + " --ignore-missing-nodes=true"
-    val result2 = build_graph_string.!
-    //println(result2)
+    val exec_import = build_graph_string.!
   }
 
-  def executeCypherQuery(): Unit = {
+  def executeCypherQuery: Unit = {
+    //https://dzone.com/articles/getting-started-neo4j-with-scala-annbspintroductio
 
-    val driver = GraphDatabase.driver("bolt:///localhost/7474", AuthTokens.basic("neo4j", "neo4j"))
+  /*  val driver = GraphDatabase.driver("bolt:///localhost/7474", AuthTokens.basic("neo4j", "neo4j"))
     val session = driver.session
     val script = args(1)
     val result = session.run(script)
     println(result)
     new PrintWriter("outActors.csv") {
       write(result.toString); close
-    }
+    }*/
+
+   // val start_shell_string = "bin/neo4j-shell -path ~/neo4j-community-3.4.1/data/databases/graph.db"
+val start_shell_string = "/Users/abernasconi/Documents/neo4j-community-3.4.1/bin/neo4j-shell -path /Users/abernasconi/Documents/neo4j-community-3.4.1/data/databases/graph.db/"
+    val result0 = start_shell_string.!
+
+    val import_movies_string = "import-cypher -o outMovies.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 RETURN action_movie.tconst;"
+    val result1 = import_movies_string.!
+    //println(result)
+    val import_actors_string = "import-cypher -o outActors.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actor]-(person:actor) RETURN person.nconst UNION ALL MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actress]-(person:actress) RETURN person.nconst;"
+    val result2 = import_actors_string.!
+    //println(result2)
+    val import_rel_string = "import-cypher -o outRel.csv MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actor]-(person:actor) RETURN startNode(relation).tconst,endNode(relation).nconst UNION ALL MATCH (action_movie:Action) WHERE action_movie.primaryTitle =~ \"C.*\" WITH action_movie ORDER BY action_movie.primaryTitle ASC LIMIT 3 MATCH (action_movie:Action)-[relation:actress]-(person:actress) RETURN startNode(relation).tconst,endNode(relation).nconst;"
+    val result3 = import_rel_string.!
+
+    val stop_shell_string = "quit"
+    val result4 = stop_shell_string.!
 
   }
 
-  def executePyQueryResultIntoMatrix(): Unit = {
+  def executePyQueryResultIntoMatrix: Unit = {
     if (args.length < 7) {
       println(ExtractMatrix + " mode needs 7 parameters to be run:\n" +
         "(0) run mode\n" +
@@ -158,7 +173,7 @@ object Neo4JARMGenerator extends App {
 
   }
 
-  def runWEKA(): Unit = {
+  def runWEKA: Unit = {
 
     if (args.length < 2) {
       println(ExtractMatrix + " mode needs 2 parameters to be run:\n" +
